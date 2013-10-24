@@ -1,0 +1,32 @@
+{
+  "name": "app-name",
+  "version": "0.0.0",
+  "description": "mojo-boilerplate ================",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "cortado start",
+    "server": "node scripts/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/classdojo/mojo-starter.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "f685d2e601df0d0e91f7a4a07f5c696e67e81bb0",
+  "dependencies": {
+    "browserify-middleware": "1.19.x",
+    "express": "3.4.x",
+    "through": "2.3.x",
+    "mojojs": "0.6.x",
+    "structr": "0.2.x",
+    "paperclip": "0.2.x",
+    "async": "0.2.x",
+    "coffee-script": "~1.6.3",
+    "funwrap": "0.0.9"
+  },
+  "devDependencies": {
+    "cortado": "0.0.x"
+  }
+}
